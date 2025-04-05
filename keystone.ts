@@ -17,6 +17,7 @@ export default withAuth(
         origin: [
           "http://localhost:3000",
           "http://slop.entroponics.com.s3-website-us-east-1.amazonaws.com",
+          "https://slop.entroponics.com"
         ],
       },
       maxFileSize: 200 * 1024 * 1024,
